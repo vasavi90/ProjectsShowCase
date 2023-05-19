@@ -1,0 +1,55 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.failure-img {
+  height: 140px;
+  width: 130px;
+}
+@media screen and (min-width: 768px) {
+  .failure-img {
+    height: 360px;
+    width: 380px;
+  }
+}
+.failure-heading {
+  color: #475569;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+@media screen and (min-width: 768px) {
+  .failure-heading {
+    font-size: 26px;
+  }
+}
+.text {
+  color: #475569;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
+.failure-button {
+  background-color: #328af2;
+  border: none;
+  border-radius: 7px;
+  padding: 10px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .failure-button {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
