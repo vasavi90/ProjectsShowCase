@@ -1,0 +1,20 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+}
+.select {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  outline: none;
+  max-width: 190;
+  padding: 15px;
+  align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .select {
+    width: 390px;
+  }
+}
